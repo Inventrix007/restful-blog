@@ -1,0 +1,14 @@
+<%-include("partials/header.ejs")%>
+<div class="ui container main text segment" style="margin-top:100px">
+	<div class="ui segment">
+		<div class="ui huge header"><%=blogs.title%></div>
+		<img src="<%=blogs.img%>" class="ui centered rounded image" style="width:200px">
+		<p class="content"><%=blogs.created.toDateString()%></p>
+		<p class="description"><%=blogs.body%></p>
+	</div>
+	
+</div>
+
+
+
+<%-include("partials/footer.ejs")%>
